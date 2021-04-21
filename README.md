@@ -1,5 +1,5 @@
 # damaiapp_interview
-程式流程分為   
+程式流程主要為三個部分，一開始利用python清理資料，資料非常龐大(1G)，但其實當中有大量重複，且有些特殊字元會導致UFT-8無法正常讀取。透過前處理後將重複的資料以及錯誤的資料修正後打上Google Sheet。利用Google sheet 當作短期的db使用。並且撰寫app script 做為管理db的角色。最後再android端，先將所有的景點load近來，接著利用字串contains的方式做到搜尋功能，接著利用ID與API串接獲得景點更多的資訊，最後將備註上傳至雲端即可做到存檔的功能。
 * data_preprocessing.py
   * 清理資料
   * 上傳至Google sheet
