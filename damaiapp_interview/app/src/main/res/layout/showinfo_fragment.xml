@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/next_image_button"
+                android:layout_gravity="center"
+                android:layout_width="100px"
+                android:layout_height="200px"></Button>
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_gravity="center"
+                android:layout_width="800px"
+                android:layout_height="470px">
+            </ImageView>
+            <Button
+                android:id="@+id/pre_image_button"
+                android:layout_gravity="center"
+                android:layout_width="100px"
+                android:layout_height="200px">
+
+            </Button>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/name_textview"
+            android:gravity="center"
+            android:textSize="28dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="200px"></TextView>
+        <TextView
+            android:id="@+id/intro_textview"
+            android:layout_width="match_parent"
+            android:layout_height="700px">
+        </TextView>
+        <com.google.android.material.textfield.TextInputEditText
+            android:paddingTop="100px"
+            android:id="@+id/remind_input_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></com.google.android.material.textfield.TextInputEditText>
+    </LinearLayout>
+
+</FrameLayout>
