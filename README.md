@@ -16,3 +16,5 @@
 
 [影片Demo](https://youtu.be/ZGAL1h9R2UM)   
 [臺北旅遊網景點資料](https://data.taipei/#/dataset/detail?id=bd31c976-d3a5-4eed-b8c3-7454bc266afa)
+[Google Sheet Link1](https://docs.google.com/spreadsheets/d/1CDDyIj8ghcOUUchAr8seWDMbKNWDiQoTomvCL6JQflI/edit#gid=0) 
+[Google Sheet Link2](https://docs.google.com/spreadsheets/d/1RKJHz3AhgctjX6WowiRby19w5ZI6MVLipcLLdJqcKx0/edit#gid=0) 
